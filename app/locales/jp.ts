@@ -1,4 +1,4 @@
-import { SubmitKey } from "../store/app";
+import { SubmitKey } from "../store/config";
 
 const jp = {
   WIP: "この機能は開発中です……",
@@ -109,9 +109,9 @@ const jp = {
         `組み込み ${builtin} 件、ユーザー定義 ${custom} 件`,
       Edit: "編集",
       Modal: {
-        Title: "提示词列表",
-        Add: "增加一条",
-        Search: "搜尋提示詞",
+        Title: "プロンプトリスト",
+        Add: "新規追加",
+        Search: "プロンプトワード検索",
       },
     },
     HistoryCount: {
